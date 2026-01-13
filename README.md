@@ -1,16 +1,36 @@
-# React + Vite
+# 🎬 Your Film Base
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Your Film Base is a movie discovery web application that allows users to browse popular films, search for movies, and view detailed movie information such as ratings, release dates, and descriptions. The application is built with React and uses a public movie API to fetch real-time data.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+- Search for movies by title  
+- Browse popular and trending films  
+- View detailed movie information  
+- Responsive design for desktop and mobile  
+- Clean and user-friendly interface  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript (ES6+)
+- CSS / Tailwind CSS
+- The Movie Database (TMDB) API
+- Vite
+- Git & GitHub
+
+---
+
+## 📦 Installation & Setup
+
+To run this project locally, follow these steps:
+
+```bash
+git clone https://github.com/deyonavoseh/your-film-base.git
+cd your-film-base
+npm install
+npm run dev

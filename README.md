@@ -19,7 +19,7 @@ Your Film Base is a movie discovery web application that allows users to browse 
 - React
 - JavaScript (ES6+)
 - CSS / Tailwind CSS
-- The Movie Database (TMDB) API
+- The Movie Database (OMDB) API
 - Vite
 - Git & GitHub
 

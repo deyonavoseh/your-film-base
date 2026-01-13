@@ -3,7 +3,7 @@ import { Star, Calendar, Clock, Film, X } from 'lucide-react';
 import Loader from './Loader';
 import ErrorMessage from './ErrorMessage';
 
-const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
+const API_KEY = 'f9d9dfb9';
 const API_URL = 'https://www.omdbapi.com/';
 
 const MovieDetails = ({ movieId, onClose }) => {

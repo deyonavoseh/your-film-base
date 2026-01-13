@@ -16,7 +16,7 @@ const SearchBar = ({ searchQuery, setSearchQuery, onSearch }) => {
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           onKeyPress={handleKeyPress}
-          placeholder="Search for movies..."
+          placeholder="Search for any movie..."
           className="w-full px-6 py-4 pr-12 bg-gray-800 text-white rounded-full border-2 border-gray-700 focus:border-blue-500 focus:outline-none transition-colors"
         />
         <button

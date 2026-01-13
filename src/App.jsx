@@ -6,7 +6,7 @@ import MovieDetails from './components/MovieDetails';
 import ErrorMessage from './components/ErrorMessage';
 import { Skeleton } from './components/Loader';
 
-const API_KEY = import.meta.env.VITE_OMDB_API_KEY;
+const API_KEY = 'f9d9dfb9';
 const API_URL = 'https://www.omdbapi.com/';
 console.log('API KEY:', API_KEY);
 console.log('Full URL:', `${API_URL}?apikey=${API_KEY}&s=test`);

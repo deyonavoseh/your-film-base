@@ -5,7 +5,7 @@ import MovieList from './components/MovieList';
 import MovieDetails from './components/MovieDetails';
 import ErrorMessage from './components/ErrorMessage';
 import { Skeleton } from './components/Loader';
-import TrendingMovies from "./components/TrendingMovies";
+
 
 
 const API_KEY = 'f9d9dfb9';
